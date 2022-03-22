@@ -13,6 +13,9 @@ The pubcid.js script generates a v4 UUID locally when a new user visits the webs
 
 Javascripts that supports Publisher Common ID will look for window.PublisherCommonId object and call the getId() method to obtain the id.  
 
+NPM v6.14.16 required in order to work.
+$ sudo npm install -g npm@6.14.16
+
 ## Install
     $ npm install
     
